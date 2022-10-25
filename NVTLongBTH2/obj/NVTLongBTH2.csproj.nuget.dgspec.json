@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenVuTruongLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj": {}
+    "C:\\Users\\Long\\Documents\\GitHub\\NVTLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj": {}
   },
   "projects": {
-    "D:\\NguyenVuTruongLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj": {
+    "C:\\Users\\Long\\Documents\\GitHub\\NVTLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenVuTruongLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj",
+        "projectUniqueName": "C:\\Users\\Long\\Documents\\GitHub\\NVTLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj",
         "projectName": "NVTLongBTH2",
-        "projectPath": "D:\\NguyenVuTruongLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenVuTruongLongBTH2\\NVTLongBTH2\\obj\\",
+        "projectPath": "C:\\Users\\Long\\Documents\\GitHub\\NVTLongBTH2\\NVTLongBTH2\\NVTLongBTH2.csproj",
+        "packagesPath": "C:\\Users\\Long\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Long\\Documents\\GitHub\\NVTLongBTH2\\NVTLongBTH2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Long\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
