@@ -9,5 +9,6 @@ namespace NVTLongBTH2.Data
 
         }
         public DbSet<Student> Students {get; set;}
+        public DbSet<NVTLongBTH2.Models.Employee> Employee{get; set;}
     }
 }
